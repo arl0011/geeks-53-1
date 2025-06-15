@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>книги</title>
+</head>
+<body>
+    
+<ol>
+   {%for i in books_list  %}
+  <li>
+    <p>{{i.title}}</p>
+    <p>{{i.created_ad}}</p>
+    <button><a href="/news_books/{{i.id}}/">читать подробнее</a></button>
+ </li>
+   {% endfor %}
+</ol>
+
+</body>
+</html>
