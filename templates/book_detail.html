@@ -11,5 +11,21 @@
     <p>{{book_id.description}}</p>
     <p>{{book_id.book_genre}}</p>
     <p>{{book_id.created_ad}}</p>
+    <hr> 
+    
+    
+    <hr>
+    <ol>
+     {% for i in book_id.book.all    %}
+<li>
+  <p>{{i.text}}</p>
+  <p>{{i.created_ad}}</p>
+  <p>{{i.author.username}}</p>
+  <p>{{i.mark}}</p>
+
+</li>
+
+     {% endfor      %}
+    </ol>
 </body>
 </html>
