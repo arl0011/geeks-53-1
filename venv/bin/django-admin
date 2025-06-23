@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/arlen/Desktop/geeks53-1/venv/bin/python3
+=======
+#!/home/arlen/Desktop/homework44/dopurok/venv/bin/python3
+>>>>>>> 170f692 (lesson4)
 # -*- coding: utf-8 -*-
 import re
 import sys
